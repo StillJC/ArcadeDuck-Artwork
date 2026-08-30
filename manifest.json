@@ -1,6 +1,6 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedUtc":  "2026-08-30T05:07:26Z",
+    "generatedUtc":  "2026-08-30T13:13:02.740792Z",
     "project":  "ArcadeDuck-Artwork",
     "keyPolicy":  "Files are addressed directly by ArcadeDuck canonical arcade set ID. Parent-inherited artwork is materialized as an alias path for the clone/variant ID.",
     "artworkTypes":  {
@@ -18,11 +18,12 @@
                                    }
                      },
     "source":  {
-                   "provider":  "EmuMovies",
+                   "provider":  "EmuMovies; LaunchBox Games Database",
                    "collections":  [
                                        "MAME Game Logos Pack",
                                        "MAME 2D Boxes/Flyers Pack",
-                                       "MAME (Arcade) 3D Boxes Version 2"
+                                       "MAME (Arcade) 3D Boxes Version 2",
+                                       "LaunchBox Games Database: Arcade clear logos, front flyers/boxes, and 3D boxes"
                                    ]
                },
     "games":  {
@@ -90,6 +91,18 @@
                                                "match":  "exact",
                                                "sourceSetId":  "susume",
                                                "sha256":  "775c51ef6a035fbc53c99a6246e4fd083323c59659729a6d2bd6d48b32338d71"
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/susume.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "lacrazyc",
+                                                   "sha256":  "7bf846f34c48236f096e31982b64ccb1ced8a7529110801cb4fa00f33adeef44"
+                                               },
+                                 "box2D":  {
+                                               "path":  "box-2d/susume.jpg",
+                                               "match":  "parent",
+                                               "sourceSetId":  "lacrazyc",
+                                               "sha256":  "6054b4f08d96a8133455f6f34677a560c936f38856868ea83445d66cf92acb15"
                                            }
                              },
                   "btchamp":  {
@@ -105,7 +118,13 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "btchamp",
                                                 "sha256":  "2b06d1ed58804bd6d2c04276a07536757f94b463d70ec74463e4c15eede80596"
-                                            }
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/btchamp.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "btchamp",
+                                                    "sha256":  "b81e63f4e176e27078479a3e30ae22ff645c2bf272fa7723e5bf41b8131a247a"
+                                                }
                               },
                   "kdeadeye":  {
                                    "title":  "Dead Eye",
@@ -114,6 +133,18 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "kdeadeye",
                                                  "sha256":  "83adbe316d0bbec643a30ff38d47d1849580b1eba3d17d11f8adec9f72728333"
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/kdeadeye.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "kdeadeye",
+                                                     "sha256":  "c80f7b45aa00ea435bdf1e02f3d37192c58528abe7e4034ce173bb11b86f92e4"
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/kdeadeye.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "kdeadeye",
+                                                 "sha256":  "8c5101efde88851a5314d446906c8fd8a93cfd679c730525b23377124edaf0c9"
                                              }
                                },
                   "weddingr":  {
@@ -123,10 +154,28 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "weddingr",
                                                      "sha256":  "4af0f6adb464055858814dc1a1b4c54f2dcc18fa6e8c351ca58bb891304283e0"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/weddingr.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "weddingr",
+                                                 "sha256":  "6061645b5b90e4b5bf022589dcc336d09cf71f214a24d76517547e82123bcfef"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/weddingr.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "weddingr",
+                                                 "sha256":  "dec5766bc891beff4b3ebd9e42547be5c9af3c6ee46a3d44bcaf588386fef388"
+                                             }
                                },
                   "tmosh":  {
-                                "title":  "Tokimeki Memorial Oshiete Your Heart"
+                                "title":  "Tokimeki Memorial Oshiete Your Heart",
+                                "box2D":  {
+                                              "path":  "box-2d/tmosh.jpg",
+                                              "match":  "exact",
+                                              "sourceSetId":  "tmosh",
+                                              "sha256":  "e716fae4fa200483e0b36ac2537135061718c2d7bd833557d6d3913fcb20af92"
+                                          }
                             },
                   "tmoshs":  {
                                  "title":  "Tokimeki Memorial Oshiete Your Heart Seal Version",
@@ -141,7 +190,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "tmoshs",
                                                "sha256":  "d2c8f35dcfd4ac45ccc74b558ce40627425774e3f9ae5232d31bcf45f10f6235"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/tmoshs.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "tmoshs",
+                                                   "sha256":  "60bd72fb56bcd121d09fea9030263906bdd89068aa13a4dd531fefd76a5a7223"
+                                               }
                              },
                   "tmoshsp":  {
                                   "title":  "Tokimeki Memorial Oshiete Your Heart Seal Version Plus",
@@ -156,7 +211,13 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "tmoshsp",
                                                 "sha256":  "02ee778ef79b4fe1f4865eadf1e6d390908da29566ec2d73a0467d55232ea3a9"
-                                            }
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/tmoshsp.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "tmoshsp",
+                                                    "sha256":  "60bd72fb56bcd121d09fea9030263906bdd89068aa13a4dd531fefd76a5a7223"
+                                                }
                               },
                   "tmoshspa":  {
                                    "title":  "Tokimeki Memorial Oshiete Your Heart Seal Version Plus",
@@ -165,6 +226,18 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "tmoshspa",
                                                  "sha256":  "85acd608538e14502baf507d15c9eb9ee1045e77efd3cf25602eed182a5d9d1d"
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/tmoshspa.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "tmoshsp",
+                                                     "sha256":  "60bd72fb56bcd121d09fea9030263906bdd89068aa13a4dd531fefd76a5a7223"
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/tmoshspa.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "tmoshsp",
+                                                 "sha256":  "5e641a1556cb85d52682d6eb90b1fb718e4aeda09386888141979714ff7bf69c"
                                              }
                                },
                   "nagano98":  {
@@ -189,7 +262,19 @@
                                              }
                                },
                   "naganoj":  {
-                                  "title":  "Hyper Olympics in Nagano"
+                                  "title":  "Hyper Olympics in Nagano",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/naganoj.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "nagano98",
+                                                    "sha256":  "556b1d12cc26549d17238aadb29d0cfc1566e2ba3031f4e5957dad057533bbb7"
+                                                },
+                                  "box3D":  {
+                                                "path":  "box-3d/naganoj.png",
+                                                "match":  "parent",
+                                                "sourceSetId":  "nagano98",
+                                                "sha256":  "adcbc513b763e60283887ebbeab3c08f1e53ba50de578ea2e661186f1ebe825d"
+                                            }
                               },
                   "simpbowl":  {
                                    "title":  "The Simpsons Bowling",
@@ -617,6 +702,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "dunkmnia",
                                                  "sha256":  "99b573869efbc0270237485c0275b8874f84da8ce660f41c52de6fcef5b14139"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/dunkmnia.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "dunkmnia",
+                                                 "sha256":  "1e17081f3f5ce215f9d7fd5fd0a06e36371e67252a16d43b9fdb27a0f7339ad3"
                                              }
                                },
                   "dunkmniajc":  {
@@ -633,6 +724,12 @@
                                                    "match":  "parent",
                                                    "sourceSetId":  "dunkmnia",
                                                    "sha256":  "99b573869efbc0270237485c0275b8874f84da8ce660f41c52de6fcef5b14139"
+                                               },
+                                     "box2D":  {
+                                                   "path":  "box-2d/dunkmniajc.jpg",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "dunkmnia",
+                                                   "sha256":  "1e17081f3f5ce215f9d7fd5fd0a06e36371e67252a16d43b9fdb27a0f7339ad3"
                                                }
                                  },
                   "xevi3dg":  {
@@ -713,6 +810,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "primglex",
                                                  "sha256":  "25281477cddc12a8c8de9a13d5943daed7e1f58a193bd518bb16526fbc24f96b"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/primglex.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "primglex",
+                                                 "sha256":  "656df6eb47a99aeddbc9c870dfc2481981984dbd64016dbae22f26da393c14ef"
                                              }
                                },
                   "danceyes":  {
@@ -802,7 +905,13 @@
                                              }
                                },
                   "fambowl":  {
-                                  "title":  "Family Bowl"
+                                  "title":  "Family Bowl",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/fambowl.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "fambowl",
+                                                    "sha256":  "5314272fbfacd5c48578007e474b700968863297b0dea14fffc9a372d07551b4"
+                                                }
                               },
                   "starswep":  {
                                    "title":  "Star Sweep",
@@ -1231,6 +1340,12 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "toukon3",
                                                 "sha256":  "bf44c9948425d9ae744aeeab158f9a8ba6afa63c2624ac005362da10fea10d22"
+                                            },
+                                  "box2D":  {
+                                                "path":  "box-2d/toukon3.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "toukon3",
+                                                "sha256":  "72e6609cf832d95f1e1db44843259d4dcd6fe23cbe8c976b958a5b8546a385c4"
                                             }
                               },
                   "soulclbr":  {
@@ -1486,6 +1601,12 @@
                                               "match":  "exact",
                                               "sourceSetId":  "sws98",
                                               "sha256":  "0c61a4a66353f35c3fab5718f88095666a32fd68f9b75b8d6ca3f2aeb76c3a9c"
+                                          },
+                                "box2D":  {
+                                              "path":  "box-2d/sws98.jpg",
+                                              "match":  "exact",
+                                              "sourceSetId":  "sws98",
+                                              "sha256":  "bb8ae48f1c5b67c199303d193db6e5d24b2868bf5bf23b0196f400a7a1436c54"
                                           }
                             },
                   "aplarail":  {
@@ -1525,7 +1646,19 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "technodr",
                                                      "sha256":  "c3d2f8a1004d52bd69739fce671b259e5c9f45e6d8bfe539f25b17eaf90af3c8"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/technodr.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "technodr",
+                                                 "sha256":  "b7418e8dcfde7b8b940ce58c585738f37987f3f8e3830ba3726ee9b271045ff9"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/technodr.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "technodr",
+                                                 "sha256":  "c88000c4e4523da040d33c7add990b10b91f9214c93e0edc345fdb15862f2af6"
+                                             }
                                },
                   "tenkomor":  {
                                    "title":  "Tenkomori Shooting",
@@ -1571,6 +1704,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "fgtlayer",
                                                  "sha256":  "17b079e69fd647aa76ae9deaa5a6d2189a0a7374712151e0a35aeaa23f01b61d"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/fgtlayer.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "fgtlayer",
+                                                 "sha256":  "7f539b1b0eb469a410fc4ffd75a8caee3ab4cd58e7a94b1cb7e0dde813766cc1"
                                              }
                                },
                   "fgtlayerja":  {
@@ -1587,6 +1726,12 @@
                                                    "match":  "parent",
                                                    "sourceSetId":  "fgtlayer",
                                                    "sha256":  "17b079e69fd647aa76ae9deaa5a6d2189a0a7374712151e0a35aeaa23f01b61d"
+                                               },
+                                     "box2D":  {
+                                                   "path":  "box-2d/fgtlayerja.jpg",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "fgtlayer",
+                                                   "sha256":  "bbf7f8e32ccf4b44cd45b3af8151db4132060795eb0a5227cbcad40f070d73ea"
                                                }
                                  },
                   "pacapp":  {
@@ -1666,6 +1811,12 @@
                                               "match":  "exact",
                                               "sourceSetId":  "sws99",
                                               "sha256":  "2455e1c39c97e2be5e20ee8b8752d70e9b3f5729fccec73c038c3b7d5dc3b21e"
+                                          },
+                                "box2D":  {
+                                              "path":  "box-2d/sws99.jpg",
+                                              "match":  "exact",
+                                              "sourceSetId":  "sws99",
+                                              "sha256":  "d0e38cf4ac93248f27604f5ec116d4262c1739b653e14271f609de48af18da0b"
                                           }
                             },
                   "tektagt":  {
@@ -1871,7 +2022,19 @@
                                                     "match":  "exact",
                                                     "sourceSetId":  "pacapp2",
                                                     "sha256":  "83269231e4a61358a757d97f2b62ff4a10e1c23e68785f01496c44ad0a68c593"
-                                                }
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/pacapp2.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "pacapp2",
+                                                "sha256":  "addd84bac0fb5767aa0e389194d96e0be0ce9b40771f244ab13adc06e1ad5073"
+                                            },
+                                  "box3D":  {
+                                                "path":  "box-3d/pacapp2.png",
+                                                "match":  "exact",
+                                                "sourceSetId":  "pacapp2",
+                                                "sha256":  "ae8a9f0bf1f1e4811617b48caad537bf2a7bda2e830b2a87d14f2923eccd28be"
+                                            }
                               },
                   "mrdrillr":  {
                                    "title":  "Mr. Driller",
@@ -1917,7 +2080,25 @@
                                                 }
                                   },
                   "ujlnow":  {
-                                 "title":  "Um Jammer Lammy NOW!"
+                                 "title":  "Um Jammer Lammy NOW!",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ujlnow.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "ujlnow",
+                                                   "sha256":  "79df8a56bf462c7487d52d2d068a077d270495fb101fe85483fc9b253c141ed9"
+                                               },
+                                 "box2D":  {
+                                               "path":  "box-2d/ujlnow.jpg",
+                                               "match":  "exact",
+                                               "sourceSetId":  "ujlnow",
+                                               "sha256":  "35acf05e96658da62d50fd0c338bc0c1757ce352f4709fbf73ea1798e280635d"
+                                           },
+                                 "box3D":  {
+                                               "path":  "box-3d/ujlnow.png",
+                                               "match":  "exact",
+                                               "sourceSetId":  "ujlnow",
+                                               "sha256":  "1e632da70408fef77e41357454c0121c77e1a90da6562ddf799397987b34944a"
+                                           }
                              },
                   "kaiunqz":  {
                                   "title":  "Kaiun Quiz",
@@ -1947,7 +2128,13 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "pacappsp",
                                                      "sha256":  "963fd9a9d20b8ce70cdb1adba6589bb5e0bfb8dd84632c94ccd4290ea05449df"
-                                                 }
+                                                 },
+                                   "box3D":  {
+                                                 "path":  "box-3d/pacappsp.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "pacappsp",
+                                                 "sha256":  "d086909bacb09aee8c2bf033ef8f7c119bf9505335006b70dd702139ff01572d"
+                                             }
                                },
                   "aquarush":  {
                                    "title":  "Aqua Rush",
@@ -1962,6 +2149,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "aquarush",
                                                  "sha256":  "9cf3124fdc218e754f7893ff0079b9c8edfe1680bf3f25f273aecc75f1e7e4c3"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/aquarush.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "aquarush",
+                                                 "sha256":  "6dfa3ecd9df1017b0c1f97a4324c2329297ab3c779644a9f83f7d3dd1358cf54"
                                              }
                                },
                   "golgo13":  {
@@ -1998,7 +2191,13 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "sws2000",
                                                 "sha256":  "031eaae2743a09e5f586a29c2bb310437da15c236cd7d9dc24e10c6784cbf99a"
-                                            }
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/sws2000.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "sws2000",
+                                                    "sha256":  "a1c0db285cb17ee9e78d48f82b2efff626366bc752e5da39353cd007bfdbb3de"
+                                                }
                               },
                   "truckk":  {
                                  "title":  "Truck Kyosokyoku",
@@ -2007,7 +2206,19 @@
                                                    "match":  "exact",
                                                    "sourceSetId":  "truckk",
                                                    "sha256":  "a9175b19eb3b486866cfccd1b591a3020688cd1bf4d8410466770823d9af9d3c"
-                                               }
+                                               },
+                                 "box2D":  {
+                                               "path":  "box-2d/truckk.jpg",
+                                               "match":  "exact",
+                                               "sourceSetId":  "truckk",
+                                               "sha256":  "ff6dfb4281cd8bc8c86fadb93e9eef55eca45644b46bfbf0f6aef88a941e1f73"
+                                           },
+                                 "box3D":  {
+                                               "path":  "box-3d/truckk.png",
+                                               "match":  "exact",
+                                               "sourceSetId":  "truckk",
+                                               "sha256":  "dee3a0756b25b40a85e60b7bc03c5a52e9379c1b6d07aacedc438fcd3bd4d7af"
+                                           }
                              },
                   "kartduel":  {
                                    "title":  "Kart Duel",
@@ -2016,7 +2227,19 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "kartduel",
                                                      "sha256":  "ef3307c95efa8c0ecc07e12f7eeca8f2ec8e55378ecca1092c778f2e60281c9c"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/kartduel.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "kartduel",
+                                                 "sha256":  "3fb61884347b61c7967aeba822184e67b3d0f8d3af187529f8d26ac9d591e695"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/kartduel.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "kartduel",
+                                                 "sha256":  "4563191ce1090f664ff615b3196984990186764510f2875978b93025a007ca43"
+                                             }
                                },
                   "kartduelja":  {
                                      "title":  "Kart Duel",
@@ -2026,7 +2249,19 @@
                                                        "match":  "parent",
                                                        "sourceSetId":  "kartduel",
                                                        "sha256":  "ef3307c95efa8c0ecc07e12f7eeca8f2ec8e55378ecca1092c778f2e60281c9c"
-                                                   }
+                                                   },
+                                     "box2D":  {
+                                                   "path":  "box-2d/kartduelja.jpg",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "kartduel",
+                                                   "sha256":  "3fb61884347b61c7967aeba822184e67b3d0f8d3af187529f8d26ac9d591e695"
+                                               },
+                                     "box3D":  {
+                                                   "path":  "box-3d/kartduelja.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "kartduel",
+                                                   "sha256":  "4563191ce1090f664ff615b3196984990186764510f2875978b93025a007ca43"
+                                               }
                                  },
                   "g13knd":  {
                                  "title":  "Golgo 13 Kiseki no Dandou",
@@ -2050,7 +2285,13 @@
                                            }
                              },
                   "sws2001":  {
-                                  "title":  "Super World Stadium 2001"
+                                  "title":  "Super World Stadium 2001",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/sws2001.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "sws2001",
+                                                    "sha256":  "da3f0ff348ce34fe772eecdfb53da2f6e080682df6ad6e90541f8da960613e1a"
+                                                }
                               },
                   "ts2":  {
                               "title":  "Battle Arena Toshinden 2",
@@ -2587,6 +2828,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "mgcldate",
                                                  "sha256":  "1ff3cc6bc8b32e54924a6e3cd9f8fa9de463ebde3e6cdf1faec833a742650919"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/mgcldate.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "mgcldtex",
+                                                 "sha256":  "2294c91e81eb4c6151ea0b604e4b684c1a864d2bf7610b1e4afeffec895d7620"
                                              }
                                },
                   "mgcldtex":  {
@@ -2602,6 +2849,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "mgcldtex",
                                                  "sha256":  "7006b189c34e92489ca9732a108222e287b40329ffbf3b35cbb3c24d8be542eb"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/mgcldtex.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "mgcldtex",
+                                                 "sha256":  "81ff9cd45fb38e25239c51948f1c4a6ef3592b3136daea6b1e8cd0521a2bad5b"
                                              }
                                },
                   "raystorm":  {
@@ -2617,6 +2870,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "raystorm",
                                                  "sha256":  "1cd56bb4dd9e6cc28670c64fd7787c4f71ef760e4fb103cbe3275c5e288deb38"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/raystorm.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "raystorm",
+                                                 "sha256":  "6c561781a93d10d7ff8878c87d4ccb3a640db3b469919f80cc14d994a47bb069"
                                              }
                                },
                   "raystormo":  {
@@ -2633,6 +2892,12 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "raystorm",
                                                   "sha256":  "1cd56bb4dd9e6cc28670c64fd7787c4f71ef760e4fb103cbe3275c5e288deb38"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/raystormo.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "raystorm",
+                                                  "sha256":  "6c561781a93d10d7ff8878c87d4ccb3a640db3b469919f80cc14d994a47bb069"
                                               }
                                 },
                   "raystormu":  {
@@ -2649,6 +2914,12 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "raystorm",
                                                   "sha256":  "1cd56bb4dd9e6cc28670c64fd7787c4f71ef760e4fb103cbe3275c5e288deb38"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/raystormu.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "raystorm",
+                                                  "sha256":  "6c561781a93d10d7ff8878c87d4ccb3a640db3b469919f80cc14d994a47bb069"
                                               }
                                 },
                   "raystormj":  {
@@ -2665,6 +2936,12 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "raystorm",
                                                   "sha256":  "1cd56bb4dd9e6cc28670c64fd7787c4f71ef760e4fb103cbe3275c5e288deb38"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/raystormj.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "raystorm",
+                                                  "sha256":  "6c561781a93d10d7ff8878c87d4ccb3a640db3b469919f80cc14d994a47bb069"
                                               }
                                 },
                   "ftimpact":  {
@@ -2768,6 +3045,12 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "gdarius2",
                                                 "sha256":  "488a993cacb4a3de53e6c94ea9ed9ea944169a41fa1a10e4784e2c0dba0dc6eb"
+                                            },
+                                  "box2D":  {
+                                                "path":  "box-2d/gdarius.jpg",
+                                                "match":  "parent",
+                                                "sourceSetId":  "gdarius2",
+                                                "sha256":  "df1ae2c0a63068f4a89663d0fde1fdcde9b76152da9c425d8f8a082bd51a10dc"
                                             }
                               },
                   "gdariusu":  {
@@ -2784,6 +3067,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "gdarius2",
                                                  "sha256":  "488a993cacb4a3de53e6c94ea9ed9ea944169a41fa1a10e4784e2c0dba0dc6eb"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/gdariusu.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "gdarius2",
+                                                 "sha256":  "df1ae2c0a63068f4a89663d0fde1fdcde9b76152da9c425d8f8a082bd51a10dc"
                                              }
                                },
                   "gdariusj":  {
@@ -2800,6 +3089,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "gdarius2",
                                                  "sha256":  "488a993cacb4a3de53e6c94ea9ed9ea944169a41fa1a10e4784e2c0dba0dc6eb"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/gdariusj.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "gdarius2",
+                                                 "sha256":  "df1ae2c0a63068f4a89663d0fde1fdcde9b76152da9c425d8f8a082bd51a10dc"
                                              }
                                },
                   "gdarius2":  {
@@ -2815,6 +3110,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "gdarius2",
                                                  "sha256":  "488a993cacb4a3de53e6c94ea9ed9ea944169a41fa1a10e4784e2c0dba0dc6eb"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/gdarius2.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "gdarius2",
+                                                 "sha256":  "53150620875b5e99f0da46ab2a496f4af29319722709ec9221407dc6cc7d0936"
                                              }
                                },
                   "nbajamex":  {
@@ -2916,6 +3217,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "primrag2",
                                                  "sha256":  "dff8274d20e5364f7b7991f0c5e82a0fd61256cc0930a5f00d8c02fa31229c1e"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/primrag2.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "primrag2",
+                                                 "sha256":  "db7603a03f8bcf3c605ef7279ef732ae7a004564c0a3587322d7c4eea5ff01cf"
                                              }
                                },
                   "hvnsgate":  {
@@ -3185,6 +3492,18 @@
                                              "match":  "exact",
                                              "sourceSetId":  "bam2",
                                              "sha256":  "789f05e75b45678b1d8df4bd08b4669c4649ee20a6238fd5b96702c4edcf16bb"
+                                         },
+                               "clearLogo":  {
+                                                 "path":  "clear-logo/bam2.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "bam2",
+                                                 "sha256":  "d4aa2633ec9f220e49cdc05f3a9b9ec2a3863fa374704be004256c773152681c"
+                                             },
+                               "box2D":  {
+                                             "path":  "box-2d/bam2.jpg",
+                                             "match":  "exact",
+                                             "sourceSetId":  "bam2",
+                                             "sha256":  "2b5e5614b797e235e05ed4471b4b810bd8235e6b50f530a7c7e4bc44c50f90ea"
                                          }
                            },
                   "bam2a":  {
@@ -3195,6 +3514,18 @@
                                               "match":  "parent",
                                               "sourceSetId":  "bam2",
                                               "sha256":  "789f05e75b45678b1d8df4bd08b4669c4649ee20a6238fd5b96702c4edcf16bb"
+                                          },
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/bam2a.png",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "bam2",
+                                                  "sha256":  "d4aa2633ec9f220e49cdc05f3a9b9ec2a3863fa374704be004256c773152681c"
+                                              },
+                                "box2D":  {
+                                              "path":  "box-2d/bam2a.jpg",
+                                              "match":  "parent",
+                                              "sourceSetId":  "bam2",
+                                              "sha256":  "2b5e5614b797e235e05ed4471b4b810bd8235e6b50f530a7c7e4bc44c50f90ea"
                                           }
                             },
                   "rvschool":  {
@@ -3819,6 +4150,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "glpracr2",
                                                  "sha256":  "1f138aea284175f59b1802185af2b3f25cc61fc7a159cbb3a9ea8bb582de01ef"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/glpracr2.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "glpracr2",
+                                                 "sha256":  "fabfa14ee0cd7ddbc6160a0ff1e310534f532b2a58efa60e44edadf5df261ebb"
                                              }
                                },
                   "glpracr2j":  {
@@ -3835,6 +4172,12 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "glpracr2",
                                                   "sha256":  "1f138aea284175f59b1802185af2b3f25cc61fc7a159cbb3a9ea8bb582de01ef"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/glpracr2j.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "glpracr2",
+                                                  "sha256":  "fabfa14ee0cd7ddbc6160a0ff1e310534f532b2a58efa60e44edadf5df261ebb"
                                               }
                                 },
                   "glpracr2l":  {
@@ -3851,6 +4194,12 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "glpracr2",
                                                   "sha256":  "1f138aea284175f59b1802185af2b3f25cc61fc7a159cbb3a9ea8bb582de01ef"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/glpracr2l.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "glpracr2",
+                                                  "sha256":  "fabfa14ee0cd7ddbc6160a0ff1e310534f532b2a58efa60e44edadf5df261ebb"
                                               }
                                 },
                   "doapp":  {
@@ -3973,6 +4322,12 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "tondemo",
                                                 "sha256":  "ba66230055fcb5fefe2ea8e3f12b2aa3a20515d62ed19542af7c369c9a2f697b"
+                                            },
+                                  "box2D":  {
+                                                "path":  "box-2d/tondemo.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "tondemo",
+                                                "sha256":  "5fcd95d2a16f4edfb293bf9341494545aaa4e5c776e29129df84406e5a65a44c"
                                             }
                               },
                   "glpracr3":  {
@@ -4266,6 +4621,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "mrdrilr2",
                                                  "sha256":  "92701c7041cceef87b6fe88ad6a118c673b17dda2f8b8e6613d45c111541e2ce"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/mrdrilr2.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "mrdrilr2",
+                                                 "sha256":  "b159a5cbc07c49ad7b3633fb3d2ba0cc97dec487b0a061ab924588781d43bc94"
                                              }
                                },
                   "mrdrilr2j":  {
@@ -4282,6 +4643,12 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "mrdrilr2",
                                                   "sha256":  "92701c7041cceef87b6fe88ad6a118c673b17dda2f8b8e6613d45c111541e2ce"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/mrdrilr2j.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "mrdrilr2",
+                                                  "sha256":  "b159a5cbc07c49ad7b3633fb3d2ba0cc97dec487b0a061ab924588781d43bc94"
                                               }
                                 },
                   "mrdrilr2u":  {
@@ -4298,6 +4665,12 @@
                                                   "match":  "exact",
                                                   "sourceSetId":  "mrdrilr2u",
                                                   "sha256":  "0651866e00d3ea770c6d68a8255e1361bec5007f17e6b27992066bfdb4be275b"
+                                              },
+                                    "box2D":  {
+                                                  "path":  "box-2d/mrdrilr2u.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "mrdrilr2",
+                                                  "sha256":  "b159a5cbc07c49ad7b3633fb3d2ba0cc97dec487b0a061ab924588781d43bc94"
                                               }
                                 },
                   "gahaha":  {
@@ -4307,7 +4680,19 @@
                                                    "match":  "exact",
                                                    "sourceSetId":  "gahaha",
                                                    "sha256":  "1e159224331af06059ab990d8b3a8d5d098309fa1daaf207baab7285dee9f66d"
-                                               }
+                                               },
+                                 "box2D":  {
+                                               "path":  "box-2d/gahaha.jpg",
+                                               "match":  "exact",
+                                               "sourceSetId":  "gahaha",
+                                               "sha256":  "83228ed8c3ec67816764e4b45979c88750ae51d51346b0372ec612e837554465"
+                                           },
+                                 "box3D":  {
+                                               "path":  "box-3d/gahaha.png",
+                                               "match":  "exact",
+                                               "sourceSetId":  "gahaha",
+                                               "sha256":  "d00497630b132f695e48ec171ce43c3fcb53c8c09271df8266df502ed822e7a0"
+                                           }
                              },
                   "ptblank3":  {
                                    "title":  "Point Blank 3",
@@ -4368,7 +4753,19 @@
                                                     "match":  "exact",
                                                     "sourceSetId":  "gjspace",
                                                     "sha256":  "c774af3d4d6d973c59c704fb042208e249fd118da4ae3981509b1a2fd3342e95"
-                                                }
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/gjspace.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "gjspace",
+                                                "sha256":  "9e52e9bc350c9b51c637993c9df90ac6074ceb34bdb3ac25d6b345da2e687b30"
+                                            },
+                                  "box3D":  {
+                                                "path":  "box-3d/gjspace.png",
+                                                "match":  "exact",
+                                                "sourceSetId":  "gjspace",
+                                                "sha256":  "72263ecf00a9cf2eb1c506a911893af8beb6e0adced3981529fba5e530a95164"
+                                            }
                               },
                   "kd2001":  {
                                  "title":  "Knock Down 2001"
@@ -4380,7 +4777,13 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "knpuzzle",
                                                      "sha256":  "8825596adeda601ec5fa4068ef94413c70d08052755f187ef18960f845e02dc4"
-                                                 }
+                                                 },
+                                   "box3D":  {
+                                                 "path":  "box-3d/knpuzzle.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "knpuzzle",
+                                                 "sha256":  "9eed950b388d297eb3c7c0533e4c6bb5e5e0a715bb7fba39ac9123de8ff52bb3"
+                                             }
                                },
                   "mrdrilrg":  {
                                    "title":  "Mr. Driller G",
@@ -4410,7 +4813,19 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "chocovdr",
                                                      "sha256":  "dffa40d199a901cee05df4e5f48fd815e55b1d6ccd916d5f75ca5a9ca32a098b"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/chocovdr.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "chocovdr",
+                                                 "sha256":  "47397b5abb782e615e85506e5c2358ddc11507f8bef61e9dc908791ebce34079"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/chocovdr.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "chocovdr",
+                                                 "sha256":  "a73c16053e550ef1d4eec31f216bd78496e0f02e12eef6b402408625f99c75f7"
+                                             }
                                },
                   "gamshara":  {
                                    "title":  "Gamshara",
@@ -4419,7 +4834,19 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "gamshara",
                                                      "sha256":  "45b9a35cdcbbd18399f2e5ce22923a1d599398a067ca7005cc7abfce717b2047"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/gamshara.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "gamshara",
+                                                 "sha256":  "c27b0b523ca9e331c5336cefe28db860ed531ce5bd72de07c472411d2dd074f4"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/gamshara.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "gamshara",
+                                                 "sha256":  "1443d29b8e8772a43149953b23c0b89da19840274cb8e4e4f5c9dc88928fdc15"
+                                             }
                                },
                   "gamsharao":  {
                                     "title":  "Gamshara",
@@ -4429,7 +4856,19 @@
                                                       "match":  "parent",
                                                       "sourceSetId":  "gamshara",
                                                       "sha256":  "45b9a35cdcbbd18399f2e5ce22923a1d599398a067ca7005cc7abfce717b2047"
-                                                  }
+                                                  },
+                                    "box2D":  {
+                                                  "path":  "box-2d/gamsharao.jpg",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "gamshara",
+                                                  "sha256":  "c27b0b523ca9e331c5336cefe28db860ed531ce5bd72de07c472411d2dd074f4"
+                                              },
+                                    "box3D":  {
+                                                  "path":  "box-3d/gamsharao.png",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "gamshara",
+                                                  "sha256":  "1443d29b8e8772a43149953b23c0b89da19840274cb8e4e4f5c9dc88928fdc15"
+                                              }
                                 },
                   "panikuru":  {
                                    "title":  "Panikuru Panekuru",
@@ -4444,6 +4883,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "panikuru",
                                                  "sha256":  "696531a77d0001bd11dec73cb8c1f68484f42b3f358f1fff1f275988a9f0f86a"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/panikuru.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "panikuru",
+                                                 "sha256":  "2ed45f46252f0741807ffea8b61795fdef081986669bec65c3cf9d44200131c0"
                                              }
                                },
                   "puzzball":  {
@@ -4492,10 +4937,22 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "konotako",
                                                      "sha256":  "45bcb035506a285096d575524dd27a878a9dd5e70adc5c891d270702b25c0a24"
-                                                 }
+                                                 },
+                                   "box3D":  {
+                                                 "path":  "box-3d/konotako.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "konotako",
+                                                 "sha256":  "19cec06537d873e1700647e3434f16b2963ad043b815d39f64ca9b8f924d5b00"
+                                             }
                                },
                   "nflclsfb":  {
-                                   "title":  "NFL Classic Football"
+                                   "title":  "NFL Classic Football",
+                                   "box2D":  {
+                                                 "path":  "box-2d/nflclsfb.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "nflclsfb",
+                                                 "sha256":  "455d29e3826597cad4149ddf65180d1f0a8a85cb1be3bed51139cdfb7794a2b0"
+                                             }
                                },
                   "pacmball":  {
                                    "title":  "Pacman BALL"
@@ -4564,6 +5021,12 @@
                                                "match":  "exact",
                                                "sourceSetId":  "g13jnr",
                                                "sha256":  "a33b1b16f1dd20a3564da7b43aa951138d38c34b00c4f03ed01efbd878128832"
+                                           },
+                                 "box2D":  {
+                                               "path":  "box-2d/g13jnr.jpg",
+                                               "match":  "exact",
+                                               "sourceSetId":  "g13jnr",
+                                               "sha256":  "520ecbf8628e239382f168f3a068c951b67972ace3a818bb75fd8c78e0c2d929"
                                            }
                              },
                   "nicetsuk":  {
@@ -4573,10 +5036,28 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "nicetsuk",
                                                      "sha256":  "2e3e85686ea5cf431a27765be2079ba2e316bc012d6420c909d6f880b455db07"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/nicetsuk.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "nicetsuk",
+                                                 "sha256":  "eef2dff55434d6f93441a57b55d0af882c1ab3100f68b5b9d33c9b8d7a8ad3ed"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/nicetsuk.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "nicetsuk",
+                                                 "sha256":  "bef00d51a2080f89b96b900a2f162f91c3399d7f70074224df3e8a6ee65ce6f6"
+                                             }
                                },
                   "squizchs":  {
-                                   "title":  "Seishun-Quiz Colorful High School"
+                                   "title":  "Seishun-Quiz Colorful High School",
+                                   "box2D":  {
+                                                 "path":  "box-2d/squizchs.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "squizchs",
+                                                 "sha256":  "12edd8f29b566fcbc5006221606742a577ad5349a7b44a8b47ca0b4ea4618b07"
+                                             }
                                },
                   "ippo":  {
                                "title":  "Hard Puncher Hajime no Ippo - The Fighting!"
@@ -4591,7 +5072,13 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "strgchmp",
                                                      "sha256":  "bf38ed5dab43d5bd08ba149841fb3bbffea924138697024143c6d2aa7fc7d692"
-                                                 }
+                                                 },
+                                   "box3D":  {
+                                                 "path":  "box-3d/strgchmp.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "strgchmp",
+                                                 "sha256":  "344fc9b3da9d3553892ed2ac8d20dabae727cfae896a0f6f40f364df8a0c1401"
+                                             }
                                },
                   "hndlchmp":  {
                                    "title":  "Handle Champ",
@@ -4705,7 +5192,19 @@
                                                      "match":  "exact",
                                                      "sourceSetId":  "jppyex98",
                                                      "sha256":  "a2117cfed86d2dd5941489cec7f9ce57e1e315365b40bd66d818613ca08e12b1"
-                                                 }
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/jppyex98.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "jppyex98",
+                                                 "sha256":  "fda99cef71a4c3bce2f6f8b91947bd53916cf8d950c0c0e73882bd27107197f8"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/jppyex98.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "jppyex98",
+                                                 "sha256":  "6cecab93f5257decabdd8956071fb48f4ad339e04db23b44b8105e1cff556dec"
+                                             }
                                },
                   "konam80s":  {
                                    "title":  "Konami 80\u0027s AC Special",
@@ -4720,6 +5219,12 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "konam80s",
                                                  "sha256":  "736cd653617b4a83b493959530c8a4fe55bea2f2b66833a0cd08588ebaec4cde"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/konam80s.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "konam80s",
+                                                 "sha256":  "5f4bd0ef369748fad5ed24c1702c9064febe4db619697926121e4626a0b47fb8"
                                              }
                                },
                   "konam80u":  {
@@ -4736,6 +5241,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "konam80s",
                                                  "sha256":  "736cd653617b4a83b493959530c8a4fe55bea2f2b66833a0cd08588ebaec4cde"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/konam80u.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "konam80s",
+                                                 "sha256":  "5f4bd0ef369748fad5ed24c1702c9064febe4db619697926121e4626a0b47fb8"
                                              }
                                },
                   "konam80j":  {
@@ -4752,6 +5263,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "konam80s",
                                                  "sha256":  "736cd653617b4a83b493959530c8a4fe55bea2f2b66833a0cd08588ebaec4cde"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/konam80j.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "konam80s",
+                                                 "sha256":  "5f4bd0ef369748fad5ed24c1702c9064febe4db619697926121e4626a0b47fb8"
                                              }
                                },
                   "konam80a":  {
@@ -4768,6 +5285,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "konam80s",
                                                  "sha256":  "736cd653617b4a83b493959530c8a4fe55bea2f2b66833a0cd08588ebaec4cde"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/konam80a.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "konam80s",
+                                                 "sha256":  "5f4bd0ef369748fad5ed24c1702c9064febe4db619697926121e4626a0b47fb8"
                                              }
                                },
                   "konam80k":  {
@@ -4784,6 +5307,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "konam80s",
                                                  "sha256":  "736cd653617b4a83b493959530c8a4fe55bea2f2b66833a0cd08588ebaec4cde"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/konam80k.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "konam80s",
+                                                 "sha256":  "5f4bd0ef369748fad5ed24c1702c9064febe4db619697926121e4626a0b47fb8"
                                              }
                                },
                   "dstage":  {
@@ -5428,7 +5957,19 @@
                                                   "match":  "exact",
                                                   "sourceSetId":  "ddr2m",
                                                   "sha256":  "053c3b8b05482a31d7fdc3ec786245554bdaa0deb0fc9e7b975a830026908499"
-                                              }
+                                              },
+                                "box2D":  {
+                                              "path":  "box-2d/ddr2m.jpg",
+                                              "match":  "exact",
+                                              "sourceSetId":  "ddr2m",
+                                              "sha256":  "c6f3275b71db76ced567f67b9f82150afbfc83420960e36707e76e5514946940"
+                                          },
+                                "box3D":  {
+                                              "path":  "box-3d/ddr2m.png",
+                                              "match":  "exact",
+                                              "sourceSetId":  "ddr2m",
+                                              "sha256":  "7099dbbe346b356c7a7e8fc24b5b7f94ebc94117fd305597c67c33d731cc64a2"
+                                          }
                             },
                   "ddr2ml":  {
                                  "title":  "Dance Dance Revolution 2nd Mix",
@@ -5503,7 +6044,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "pcnfrk",
                                                "sha256":  "305b01d4b70da0f5bcfcb190cfb8a05f35b59b4b111fe98563858b6fcfea1bf3"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/pcnfrk.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "pcnfrk",
+                                                   "sha256":  "ba0779907fac767dce4a283280cbf5494c7b816b6e535541279a2d48282b361c"
+                                               }
                              },
                   "pcnfrka":  {
                                   "title":  "Percussion Freaks",
@@ -5519,7 +6066,13 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "pcnfrk",
                                                 "sha256":  "305b01d4b70da0f5bcfcb190cfb8a05f35b59b4b111fe98563858b6fcfea1bf3"
-                                            }
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/pcnfrka.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "pcnfrk",
+                                                    "sha256":  "ba0779907fac767dce4a283280cbf5494c7b816b6e535541279a2d48282b361c"
+                                                }
                               },
                   "pcnfrkk":  {
                                   "title":  "Percussion Freaks",
@@ -5535,7 +6088,13 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "pcnfrk",
                                                 "sha256":  "305b01d4b70da0f5bcfcb190cfb8a05f35b59b4b111fe98563858b6fcfea1bf3"
-                                            }
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/pcnfrkk.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "pcnfrk",
+                                                    "sha256":  "ba0779907fac767dce4a283280cbf5494c7b816b6e535541279a2d48282b361c"
+                                                }
                               },
                   "drmnu":  {
                                 "title":  "DrumMania",
@@ -5551,7 +6110,13 @@
                                               "match":  "parent",
                                               "sourceSetId":  "pcnfrk",
                                               "sha256":  "305b01d4b70da0f5bcfcb190cfb8a05f35b59b4b111fe98563858b6fcfea1bf3"
-                                          }
+                                          },
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/drmnu.png",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "pcnfrk",
+                                                  "sha256":  "ba0779907fac767dce4a283280cbf5494c7b816b6e535541279a2d48282b361c"
+                                              }
                             },
                   "drmn":  {
                                "title":  "DrumMania",
@@ -5567,7 +6132,13 @@
                                              "match":  "exact",
                                              "sourceSetId":  "drmn",
                                              "sha256":  "1dde153d84633f3602f05bafc42cc863d6e88a8530bfcb6cb32ae202c7274227"
-                                         }
+                                         },
+                               "clearLogo":  {
+                                                 "path":  "clear-logo/drmn.png",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "pcnfrk",
+                                                 "sha256":  "ba0779907fac767dce4a283280cbf5494c7b816b6e535541279a2d48282b361c"
+                                             }
                            },
                   "drmna":  {
                                 "title":  "DrumMania",
@@ -5583,7 +6154,13 @@
                                               "match":  "parent",
                                               "sourceSetId":  "pcnfrk",
                                               "sha256":  "305b01d4b70da0f5bcfcb190cfb8a05f35b59b4b111fe98563858b6fcfea1bf3"
-                                          }
+                                          },
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/drmna.png",
+                                                  "match":  "parent",
+                                                  "sourceSetId":  "pcnfrk",
+                                                  "sha256":  "ba0779907fac767dce4a283280cbf5494c7b816b6e535541279a2d48282b361c"
+                                              }
                             },
                   "gtrfrk2m":  {
                                    "title":  "Guitar Freaks 2nd Mix",
@@ -5692,7 +6269,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "ddr3mk",
                                                "sha256":  "c18edf26ade3ec5e86dc97307f42bb0399922c5ac2e73cb29a1ec9c21c5d6260"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddr3mk.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "ddr3mk",
+                                                   "sha256":  "9dead788a0b159defd8488f2e93cd9ecfec7b94f5d6a470b29599090d67472ee"
+                                               }
                              },
                   "ddr3mka":  {
                                   "title":  "Dance Dance Revolution 3rd Mix",
@@ -5724,7 +6307,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "ddr3ma",
                                                "sha256":  "9d1e96804330d37661f325e5ee741bbbb0fcf7ac7116bbea89bb791bc11edc21"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddr3ma.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "ddr3mk",
+                                                   "sha256":  "9dead788a0b159defd8488f2e93cd9ecfec7b94f5d6a470b29599090d67472ee"
+                                               }
                              },
                   "ddr3mj":  {
                                  "title":  "Dance Dance Revolution 3rd Mix",
@@ -5740,7 +6329,13 @@
                                                "match":  "parent",
                                                "sourceSetId":  "ddr3mk",
                                                "sha256":  "c18edf26ade3ec5e86dc97307f42bb0399922c5ac2e73cb29a1ec9c21c5d6260"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddr3mj.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "ddr3mk",
+                                                   "sha256":  "9dead788a0b159defd8488f2e93cd9ecfec7b94f5d6a470b29599090d67472ee"
+                                               }
                              },
                   "ddrsbm":  {
                                  "title":  "Dance Dance Revolution Solo Bass Mix",
@@ -5755,7 +6350,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "ddrsbm",
                                                "sha256":  "c3939ffe088ab073631496c93911756a10e64fc989d1cb8b8f13deee598d82ea"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddrsbm.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "ddrsbm",
+                                                   "sha256":  "87809a7c6f8efea0fb9164d3edba62eb318a06f6f58eec74d9c7eb385a70483b"
+                                               }
                              },
                   "ddrs2k":  {
                                  "title":  "Dance Dance Revolution Solo 2000"
@@ -5808,11 +6409,23 @@
                                               }
                                 },
                   "dsfdct":  {
-                                 "title":  "Dancing Stage featuring Dreams Come True"
+                                 "title":  "Dancing Stage featuring Dreams Come True",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/dsfdct.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "dsfdct",
+                                                   "sha256":  "ed3a2684c7386ff5094e51b7daa032fcf3e5c1bb65b359c67c85f66cb15ddcc7"
+                                               }
                              },
                   "dsfdcta":  {
                                   "title":  "Dancing Stage featuring Dreams Come True",
-                                  "parent":  "dsfdct"
+                                  "parent":  "dsfdct",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/dsfdcta.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "dsfdct",
+                                                    "sha256":  "ed3a2684c7386ff5094e51b7daa032fcf3e5c1bb65b359c67c85f66cb15ddcc7"
+                                                }
                               },
                   "pcnfrk2m":  {
                                    "title":  "Percussion Freaks 2nd Mix",
@@ -5827,7 +6440,13 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "pcnfrk2m",
                                                  "sha256":  "71d122c8802af28d23f9aef2ea238e7db881a3d2f9177071a4ae20888f0fcebd"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/pcnfrk2m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "pcnfrk2m",
+                                                     "sha256":  "6f80d3884e3a0ce93c34edd6ce355c8201523d18870f0346cde4f31423c03ba3"
+                                                 }
                                },
                   "pcnfrk2mk":  {
                                     "title":  "Percussion Freaks 2nd Mix",
@@ -5843,7 +6462,13 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "pcnfrk2m",
                                                   "sha256":  "71d122c8802af28d23f9aef2ea238e7db881a3d2f9177071a4ae20888f0fcebd"
-                                              }
+                                              },
+                                    "clearLogo":  {
+                                                      "path":  "clear-logo/pcnfrk2mk.png",
+                                                      "match":  "parent",
+                                                      "sourceSetId":  "pcnfrk2m",
+                                                      "sha256":  "6f80d3884e3a0ce93c34edd6ce355c8201523d18870f0346cde4f31423c03ba3"
+                                                  }
                                 },
                   "drmn2m":  {
                                  "title":  "DrumMania 2nd Mix",
@@ -5859,7 +6484,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "drmn2m",
                                                "sha256":  "8602ca722a8e8099167ebcf5696a544b891f6318e638f62dc87ae3eb6327bcc5"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/drmn2m.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "pcnfrk2m",
+                                                   "sha256":  "6f80d3884e3a0ce93c34edd6ce355c8201523d18870f0346cde4f31423c03ba3"
+                                               }
                              },
                   "drmn2mpu":  {
                                    "title":  "DrumMania 2nd Mix",
@@ -5875,7 +6506,13 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "pcnfrk2m",
                                                  "sha256":  "71d122c8802af28d23f9aef2ea238e7db881a3d2f9177071a4ae20888f0fcebd"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/drmn2mpu.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "pcnfrk2m",
+                                                     "sha256":  "6f80d3884e3a0ce93c34edd6ce355c8201523d18870f0346cde4f31423c03ba3"
+                                                 }
                                },
                   "stepchmp":  {
                                    "title":  "Step Champ",
@@ -5916,7 +6553,13 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "gunmania",
                                                  "sha256":  "13144d8c7d5c5a6842b283f5a15da399b694206e0badba0ab50eabdc963fd0c5"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/gunmania.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "gunmania",
+                                                     "sha256":  "0d3166b83a76458626590d06359bb99d8bf7249cf2608ea0768af4c62d5a19a6"
+                                                 }
                                },
                   "fghtmn":  {
                                  "title":  "Fighting Mania",
@@ -5925,6 +6568,18 @@
                                                "match":  "exact",
                                                "sourceSetId":  "fghtmn",
                                                "sha256":  "394d061e5141944eaf40689ae4ca89ff3ed54e3bb9860b402cfb9d59d35fe863"
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/fghtmn.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "fghtmn",
+                                                   "sha256":  "f3660f75eea755259a54eb7c93fc4c42d10c7f2eed24e4920e6e8a58e0d20b50"
+                                               },
+                                 "box2D":  {
+                                               "path":  "box-2d/fghtmn.jpg",
+                                               "match":  "exact",
+                                               "sourceSetId":  "fghtmn",
+                                               "sha256":  "035366c967fb7463d1177c57c3867bdd69f182f64b6730e10f18fadbf33beb0a"
                                            }
                              },
                   "fghtmna":  {
@@ -5935,6 +6590,18 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "fghtmn",
                                                 "sha256":  "394d061e5141944eaf40689ae4ca89ff3ed54e3bb9860b402cfb9d59d35fe863"
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/fghtmna.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "fghtmn",
+                                                    "sha256":  "f3660f75eea755259a54eb7c93fc4c42d10c7f2eed24e4920e6e8a58e0d20b50"
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/fghtmna.jpg",
+                                                "match":  "parent",
+                                                "sourceSetId":  "fghtmn",
+                                                "sha256":  "035366c967fb7463d1177c57c3867bdd69f182f64b6730e10f18fadbf33beb0a"
                                             }
                               },
                   "pnchmn":  {
@@ -5945,6 +6612,18 @@
                                                "match":  "parent",
                                                "sourceSetId":  "fghtmn",
                                                "sha256":  "394d061e5141944eaf40689ae4ca89ff3ed54e3bb9860b402cfb9d59d35fe863"
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/pnchmn.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "fghtmn",
+                                                   "sha256":  "f3660f75eea755259a54eb7c93fc4c42d10c7f2eed24e4920e6e8a58e0d20b50"
+                                               },
+                                 "box2D":  {
+                                               "path":  "box-2d/pnchmn.jpg",
+                                               "match":  "parent",
+                                               "sourceSetId":  "fghtmn",
+                                               "sha256":  "035366c967fb7463d1177c57c3867bdd69f182f64b6730e10f18fadbf33beb0a"
                                            }
                              },
                   "pnchmna":  {
@@ -5955,6 +6634,18 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "fghtmn",
                                                 "sha256":  "394d061e5141944eaf40689ae4ca89ff3ed54e3bb9860b402cfb9d59d35fe863"
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/pnchmna.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "fghtmn",
+                                                    "sha256":  "f3660f75eea755259a54eb7c93fc4c42d10c7f2eed24e4920e6e8a58e0d20b50"
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/pnchmna.jpg",
+                                                "match":  "parent",
+                                                "sourceSetId":  "fghtmn",
+                                                "sha256":  "035366c967fb7463d1177c57c3867bdd69f182f64b6730e10f18fadbf33beb0a"
                                             }
                               },
                   "fghtmnk":  {
@@ -5965,6 +6656,18 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "fghtmn",
                                                 "sha256":  "394d061e5141944eaf40689ae4ca89ff3ed54e3bb9860b402cfb9d59d35fe863"
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/fghtmnk.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "fghtmn",
+                                                    "sha256":  "f3660f75eea755259a54eb7c93fc4c42d10c7f2eed24e4920e6e8a58e0d20b50"
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/fghtmnk.jpg",
+                                                "match":  "parent",
+                                                "sourceSetId":  "fghtmn",
+                                                "sha256":  "035366c967fb7463d1177c57c3867bdd69f182f64b6730e10f18fadbf33beb0a"
                                             }
                               },
                   "fghtmnu":  {
@@ -5975,6 +6678,18 @@
                                                 "match":  "parent",
                                                 "sourceSetId":  "fghtmn",
                                                 "sha256":  "394d061e5141944eaf40689ae4ca89ff3ed54e3bb9860b402cfb9d59d35fe863"
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/fghtmnu.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "fghtmn",
+                                                    "sha256":  "f3660f75eea755259a54eb7c93fc4c42d10c7f2eed24e4920e6e8a58e0d20b50"
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/fghtmnu.jpg",
+                                                "match":  "parent",
+                                                "sourceSetId":  "fghtmn",
+                                                "sha256":  "035366c967fb7463d1177c57c3867bdd69f182f64b6730e10f18fadbf33beb0a"
                                             }
                               },
                   "dsem":  {
@@ -5990,7 +6705,13 @@
                                              "match":  "exact",
                                              "sourceSetId":  "dsem",
                                              "sha256":  "8aa7aef4fbffd5140720684381a0d0680991a154bfd05fe7df8fb0cd0df78aeb"
-                                         }
+                                         },
+                               "clearLogo":  {
+                                                 "path":  "clear-logo/dsem.png",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "dsem",
+                                                 "sha256":  "30c81449726d49c35d1dc00190eb400116445212058e03d2ec0b148c219ae71a"
+                                             }
                            },
                   "ddrkara2":  {
                                    "title":  "Dance Dance Revolution Karaoke Mix 2"
@@ -6008,7 +6729,13 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "gtrfrk3m",
                                                  "sha256":  "894b4880bd0cc8e6dc05dc2dd447ac540c56bab4e38d07b40720463447de1496"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/gtrfrk3m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "gtrfrk3m",
+                                                     "sha256":  "62a5eee3c93dbeacc88c8dc3f4d490a58900514f293f9e386b4969b76304a5cc"
+                                                 }
                                },
                   "gtfrk3ma":  {
                                    "title":  "Guitar Freaks 3rd Mix",
@@ -6024,7 +6751,13 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "gtfrk3ma",
                                                  "sha256":  "d2288fae8c2dc3bf0716fff80640de6f094b810b1b9fdc00503279020964b597"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/gtfrk3ma.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "gtrfrk3m",
+                                                     "sha256":  "62a5eee3c93dbeacc88c8dc3f4d490a58900514f293f9e386b4969b76304a5cc"
+                                                 }
                                },
                   "gtfrk3mb":  {
                                    "title":  "Guitar Freaks 3rd Mix",
@@ -6040,10 +6773,22 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "gtrfrk3m",
                                                  "sha256":  "894b4880bd0cc8e6dc05dc2dd447ac540c56bab4e38d07b40720463447de1496"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/gtfrk3mb.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "gtrfrk3m",
+                                                     "sha256":  "62a5eee3c93dbeacc88c8dc3f4d490a58900514f293f9e386b4969b76304a5cc"
+                                                 }
                                },
                   "pnchmn2":  {
-                                  "title":  "Punch Mania 2: Hokuto no Ken"
+                                  "title":  "Punch Mania 2: Hokuto no Ken",
+                                  "box2D":  {
+                                                "path":  "box-2d/pnchmn2.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "pnchmn2",
+                                                "sha256":  "32675ae24386cb6db86a3f33b43bc058376f5c8b6fd02b8124c294473afbb3ab"
+                                            }
                               },
                   "animechmp":  {
                                     "title":  "Anime Champ",
@@ -6052,7 +6797,19 @@
                                                       "match":  "exact",
                                                       "sourceSetId":  "animechmp",
                                                       "sha256":  "3b65a51a772612285179af26949ade4f1025b46731a859f090a0ff6f67d8a7c1"
-                                                  }
+                                                  },
+                                    "box2D":  {
+                                                  "path":  "box-2d/animechmp.jpg",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "animechmp",
+                                                  "sha256":  "a1d21d0ececeda67bad86f816ba6e8e7554772a750acf0e24845a36c383522c4"
+                                              },
+                                    "box3D":  {
+                                                  "path":  "box-3d/animechmp.png",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "animechmp",
+                                                  "sha256":  "c28405337449691da347aba5ace0baf739b7dbd5fe496539c8ffc6e3d4fbec49"
+                                              }
                                 },
                   "salarymc":  {
                                    "title":  "Salary Man Champ - Tatakau Salary Man",
@@ -6091,7 +6848,13 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "pcnfrk3m",
                                                  "sha256":  "8841fe7955b57f8c990218e6b503ecd55ef28ede63ee5b4e160f645d3c1ce34e"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/pcnfrk3m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "pcnfrk3m",
+                                                     "sha256":  "62b9bdf88b0efc06a8358fb9e35ea166bb15182311fad24803de2d595d7c3881"
+                                                 }
                                },
                   "pcnfrk3mk":  {
                                     "title":  "Percussion Freaks 3rd Mix",
@@ -6107,7 +6870,13 @@
                                                   "match":  "parent",
                                                   "sourceSetId":  "pcnfrk3m",
                                                   "sha256":  "8841fe7955b57f8c990218e6b503ecd55ef28ede63ee5b4e160f645d3c1ce34e"
-                                              }
+                                              },
+                                    "clearLogo":  {
+                                                      "path":  "clear-logo/pcnfrk3mk.png",
+                                                      "match":  "parent",
+                                                      "sourceSetId":  "pcnfrk3m",
+                                                      "sha256":  "62b9bdf88b0efc06a8358fb9e35ea166bb15182311fad24803de2d595d7c3881"
+                                                  }
                                 },
                   "drmn3m":  {
                                  "title":  "DrumMania 3rd Mix",
@@ -6123,7 +6892,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "drmn3m",
                                                "sha256":  "eb6b49766dec59e7b90764c33a06fa123a85180df511e75c92482f2eba5fcfc8"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/drmn3m.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "pcnfrk3m",
+                                                   "sha256":  "62b9bdf88b0efc06a8358fb9e35ea166bb15182311fad24803de2d595d7c3881"
+                                               }
                              },
                   "gtrfrk4m":  {
                                    "title":  "Guitar Freaks 4th Mix",
@@ -6138,14 +6913,32 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "gtrfrk4m",
                                                  "sha256":  "926eeebf7069d8d3969b12df7f1591b8304695badc43ac8d80adcb232f90d075"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/gtrfrk4m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "gtrfrk4m",
+                                                     "sha256":  "34b2bab92a56fbd9d925d0774ba870d93df190269ad1558862af85ddb7658994"
+                                                 }
                                },
                   "ddr4m":  {
-                                "title":  "Dance Dance Revolution 4th Mix"
+                                "title":  "Dance Dance Revolution 4th Mix",
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/ddr4m.png",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "ddr4m",
+                                                  "sha256":  "9f2bdb6849d17501670cdf201d2667e707bc9e0e47fe16dcec54b31bacace0b1"
+                                              }
                             },
                   "ddr4mj":  {
                                  "title":  "Dance Dance Revolution 4th Mix",
-                                 "parent":  "ddr4m"
+                                 "parent":  "ddr4m",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddr4mj.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "ddr4m",
+                                                   "sha256":  "9f2bdb6849d17501670cdf201d2667e707bc9e0e47fe16dcec54b31bacace0b1"
+                                               }
                              },
                   "ddr4ms":  {
                                  "title":  "Dance Dance Revolution 4th Mix Solo"
@@ -6167,7 +6960,13 @@
                                               "match":  "exact",
                                               "sourceSetId":  "dsfdr",
                                               "sha256":  "be164da40478aa1a5671d9f3637c120100924ba46c5b6c5dcb889fcc35a904a5"
-                                          }
+                                          },
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/dsfdr.png",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "dsfdr",
+                                                  "sha256":  "823a9cb7e2a7487f8433637948341db4c0456875cd64611a701cb504ef9c94be"
+                                              }
                             },
                   "ddrusa":  {
                                  "title":  "Dance Dance Revolution USA",
@@ -6182,7 +6981,13 @@
                                                "match":  "exact",
                                                "sourceSetId":  "ddrusa",
                                                "sha256":  "a2e39eb4c90108d1d2446147f5dc5a061d7a42bc1c8bc2fce87d998bb006edbf"
-                                           }
+                                           },
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddrusa.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "ddrusa",
+                                                   "sha256":  "bd78ccd9f40b6ff401556f622a0694fe960f086f74d433b7312f4f773c2400e7"
+                                               }
                              },
                   "ddr4mp":  {
                                  "title":  "Dance Dance Revolution 4th Mix Plus"
@@ -6203,18 +7008,42 @@
                                               "match":  "exact",
                                               "sourceSetId":  "dmx2m",
                                               "sha256":  "aef7211ae070353832f9376a33f34c89dd40b0dc2ebb060b8b72f8c2bcf07ce9"
-                                          }
+                                          },
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/dmx2m.png",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "dmx2m",
+                                                  "sha256":  "eea02ff2955511c3cbf03ff41a7eea3dd53a7fda27f93c8bae0f1032abc2e24b"
+                                              }
                             },
                   "pcnfrk4m":  {
-                                   "title":  "Percussion Freaks 4th Mix"
+                                   "title":  "Percussion Freaks 4th Mix",
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/pcnfrk4m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "pcnfrk4m",
+                                                     "sha256":  "5f43b1dce1d46e46c8128328da9788630d83fc2b95d5a8642823f8ca64288c19"
+                                                 }
                                },
                   "pcnfrk4mk":  {
                                     "title":  "Percussion Freaks 4th Mix",
-                                    "parent":  "pcnfrk4m"
+                                    "parent":  "pcnfrk4m",
+                                    "clearLogo":  {
+                                                      "path":  "clear-logo/pcnfrk4mk.png",
+                                                      "match":  "parent",
+                                                      "sourceSetId":  "pcnfrk4m",
+                                                      "sha256":  "5f43b1dce1d46e46c8128328da9788630d83fc2b95d5a8642823f8ca64288c19"
+                                                  }
                                 },
                   "drmn4m":  {
                                  "title":  "DrumMania 4th Mix",
-                                 "parent":  "pcnfrk4m"
+                                 "parent":  "pcnfrk4m",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/drmn4m.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "pcnfrk4m",
+                                                   "sha256":  "5f43b1dce1d46e46c8128328da9788630d83fc2b95d5a8642823f8ca64288c19"
+                                               }
                              },
                   "gtrfrk5m":  {
                                    "title":  "Guitar Freaks 5th Mix"
@@ -6224,7 +7053,13 @@
                                     "parent":  "gtrfrk5m"
                                 },
                   "ddr5m":  {
-                                "title":  "Dance Dance Revolution 5th Mix"
+                                "title":  "Dance Dance Revolution 5th Mix",
+                                "box2D":  {
+                                              "path":  "box-2d/ddr5m.jpg",
+                                              "match":  "exact",
+                                              "sourceSetId":  "ddr5m",
+                                              "sha256":  "f4b478ff8822189e5536fc22dd560e104da8f08b23f6d2b836768df7bbaad40d"
+                                          }
                             },
                   "kicknkick":  {
                                     "title":  "Kick \u0026 Kick",
@@ -6233,7 +7068,19 @@
                                                       "match":  "exact",
                                                       "sourceSetId":  "kicknkick",
                                                       "sha256":  "21c7c3f4de22b7292ccf883a1a4efc4ccebdd8a9695a9460ad288863dba52ba5"
-                                                  }
+                                                  },
+                                    "box2D":  {
+                                                  "path":  "box-2d/kicknkick.jpg",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "kicknkick",
+                                                  "sha256":  "ab131b36d46f153d2bd7d8d2a114266583d0d108b73a87c53684aeceee32c15c"
+                                              },
+                                    "box3D":  {
+                                                  "path":  "box-3d/kicknkick.png",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "kicknkick",
+                                                  "sha256":  "611dfff5b1f075b29720815d82c421210601224078fd589b5e9afb2951076bf6"
+                                              }
                                 },
                   "dmx2majp":  {
                                    "title":  "Dance Maniax 2nd Mix Append J-Paradise",
@@ -6242,7 +7089,13 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "dmx2majp",
                                                  "sha256":  "1313d204a64c38da5b352d7ef32b6ba37370b7402406c6dec13bf22df1c48cea"
-                                             }
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/dmx2majp.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "dmx2majp",
+                                                     "sha256":  "eea02ff2955511c3cbf03ff41a7eea3dd53a7fda27f93c8bae0f1032abc2e24b"
+                                                 }
                                },
                   "mamboagg":  {
                                    "title":  "Mambo A Go-Go"
@@ -6276,7 +7129,13 @@
                                    "title":  "Guitar Freaks 7th Mix"
                                },
                   "ddrmax":  {
-                                 "title":  "DDRMAX - Dance Dance Revolution 6th Mix"
+                                 "title":  "DDRMAX - Dance Dance Revolution 6th Mix",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/ddrmax.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "ddrmax",
+                                                   "sha256":  "ddbcbb830a71f1b7339065ade8a4e3b218e63ec0e6e63d0307a1a37144b5dd4d"
+                                               }
                              },
                   "ddrmax2":  {
                                   "title":  "DDRMAX2 - Dance Dance Revolution 7th Mix"
@@ -6301,18 +7160,42 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "gbbchmp",
                                                 "sha256":  "d2128bf076a95a7b121e93f9552b3855a410a29fd7c1253bbc1763f260ac3354"
+                                            },
+                                  "box3D":  {
+                                                "path":  "box-3d/gbbchmp.png",
+                                                "match":  "exact",
+                                                "sourceSetId":  "gbbchmp",
+                                                "sha256":  "e9a5fbbdbc71869008bd7a8d0ba83b242787621620e407705af91d10df037995"
                                             }
                               },
                   "pcnfrk7m":  {
-                                   "title":  "Percussion Freaks 7th Mix"
+                                   "title":  "Percussion Freaks 7th Mix",
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/pcnfrk7m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "pcnfrk7m",
+                                                     "sha256":  "a82f000bd479c4fc5c96fe84c1553be39684440185118f9c3d36946b0c3a364b"
+                                                 }
                                },
                   "drmn7m":  {
                                  "title":  "DrumMania 7th Mix",
-                                 "parent":  "pcnfrk7m"
+                                 "parent":  "pcnfrk7m",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/drmn7m.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "pcnfrk7m",
+                                                   "sha256":  "a82f000bd479c4fc5c96fe84c1553be39684440185118f9c3d36946b0c3a364b"
+                                               }
                              },
                   "drmn7ma":  {
                                   "title":  "DrumMania 7th Mix",
-                                  "parent":  "pcnfrk7m"
+                                  "parent":  "pcnfrk7m",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/drmn7ma.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "pcnfrk7m",
+                                                    "sha256":  "a82f000bd479c4fc5c96fe84c1553be39684440185118f9c3d36946b0c3a364b"
+                                                }
                               },
                   "gtrfrk8m":  {
                                    "title":  "Guitar Freaks 8th Mix"
@@ -6334,17 +7217,41 @@
                                               "match":  "exact",
                                               "sourceSetId":  "dsem2",
                                               "sha256":  "b1fbad310c32113b63e775c980570682e52576720e9aead948cf672e3b873f4b"
-                                          }
+                                          },
+                                "clearLogo":  {
+                                                  "path":  "clear-logo/dsem2.png",
+                                                  "match":  "exact",
+                                                  "sourceSetId":  "dsem2",
+                                                  "sha256":  "c2a71de205fef6d40cb7c9d321cbb680d9ef4f6c65d79524513e5ac2331cd69e"
+                                              }
                             },
                   "ddrextrm":  {
-                                   "title":  "Dance Dance Revolution Extreme"
+                                   "title":  "Dance Dance Revolution Extreme",
+                                   "box2D":  {
+                                                 "path":  "box-2d/ddrextrm.jpg",
+                                                 "match":  "exact",
+                                                 "sourceSetId":  "ddrextrm",
+                                                 "sha256":  "1c342aaa6a68fa24f14b1723330cdd0aff4fc9ca93174eea9b272f97d1c19e79"
+                                             }
                                },
                   "pcnfrk8m":  {
-                                   "title":  "Percussion Freaks 8th Mix"
+                                   "title":  "Percussion Freaks 8th Mix",
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/pcnfrk8m.png",
+                                                     "match":  "exact",
+                                                     "sourceSetId":  "pcnfrk8m",
+                                                     "sha256":  "20e617cc856f1b545e29ed688be5d1fd619ed9fd2de1fac286d545a0103f8e06"
+                                                 }
                                },
                   "drmn8m":  {
                                  "title":  "DrumMania 8th Mix",
-                                 "parent":  "pcnfrk8m"
+                                 "parent":  "pcnfrk8m",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/drmn8m.png",
+                                                   "match":  "parent",
+                                                   "sourceSetId":  "pcnfrk8m",
+                                                   "sha256":  "20e617cc856f1b545e29ed688be5d1fd619ed9fd2de1fac286d545a0103f8e06"
+                                               }
                              },
                   "gtrfrk9m":  {
                                    "title":  "Guitar Freaks 9th Mix"
@@ -6371,18 +7278,42 @@
                                    "title":  "Guitar Freaks 11th Mix"
                                },
                   "pcnfrk10m":  {
-                                    "title":  "Percussion Freaks 10th Mix"
+                                    "title":  "Percussion Freaks 10th Mix",
+                                    "clearLogo":  {
+                                                      "path":  "clear-logo/pcnfrk10m.png",
+                                                      "match":  "exact",
+                                                      "sourceSetId":  "pcnfrk10m",
+                                                      "sha256":  "43f56c84fc741ecb4b7001a073bba7d0ac1fbb079e70bbc093f112849a4205b4"
+                                                  }
                                 },
                   "drmn10m":  {
                                   "title":  "DrumMania 10th Mix",
-                                  "parent":  "pcnfrk10m"
+                                  "parent":  "pcnfrk10m",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/drmn10m.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "pcnfrk10m",
+                                                    "sha256":  "43f56c84fc741ecb4b7001a073bba7d0ac1fbb079e70bbc093f112849a4205b4"
+                                                }
                               },
                   "bmiidx":  {
-                                 "title":  "beatmania IIDX"
+                                 "title":  "beatmania IIDX",
+                                 "clearLogo":  {
+                                                   "path":  "clear-logo/bmiidx.png",
+                                                   "match":  "exact",
+                                                   "sourceSetId":  "bmiidx",
+                                                   "sha256":  "31b58e3bcdaef38b37390a13582e9af5af77d1fd4de33f0134944a3ec1c42480"
+                                               }
                              },
                   "bmiidxa":  {
                                   "title":  "beatmania IIDX",
-                                  "parent":  "bmiidx"
+                                  "parent":  "bmiidx",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/bmiidxa.png",
+                                                    "match":  "parent",
+                                                    "sourceSetId":  "bmiidx",
+                                                    "sha256":  "31b58e3bcdaef38b37390a13582e9af5af77d1fd4de33f0134944a3ec1c42480"
+                                                }
                               },
                   "bmiidxc":  {
                                   "title":  "beatmania IIDX with DDR 2nd Club Version"
@@ -6420,18 +7351,78 @@
                                                     "match":  "exact",
                                                     "sourceSetId":  "bmiidx2",
                                                     "sha256":  "86b4430ee5ad20e31e65da258b37dda0e5b01edce129aaba6cb584d55be3c6bd"
-                                                }
+                                                },
+                                  "box3D":  {
+                                                "path":  "box-3d/bmiidx2.png",
+                                                "match":  "exact",
+                                                "sourceSetId":  "bmiidx2",
+                                                "sha256":  "9515186f52c69693b02a7083912004b32583257254aa3b32aee01de57e9efb6e"
+                                            }
                               },
                   "bmiidx3":  {
-                                  "title":  "beatmania IIDX 3rd style"
+                                  "title":  "beatmania IIDX 3rd style",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/bmiidx3.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "bmiidx3",
+                                                    "sha256":  "0c65fc4a929818304929b4f28906af45104c1d6b158d5d1da4fcf0668bd62871"
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/bmiidx3.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "bmiidx3",
+                                                "sha256":  "1064dd279071af2083af8309064801bb0e5f194728b0789344ba83b9fe5b33d0"
+                                            },
+                                  "box3D":  {
+                                                "path":  "box-3d/bmiidx3.png",
+                                                "match":  "exact",
+                                                "sourceSetId":  "bmiidx3",
+                                                "sha256":  "40d0cc1ec5dcf7095cdfdd4f727b675f60488b81e5faef536d1b605e235c0128"
+                                            }
                               },
                   "bmiidx3b":  {
                                    "title":  "beatmania IIDX 3rd style",
-                                   "parent":  "bmiidx3"
+                                   "parent":  "bmiidx3",
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/bmiidx3b.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "bmiidx3",
+                                                     "sha256":  "0c65fc4a929818304929b4f28906af45104c1d6b158d5d1da4fcf0668bd62871"
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/bmiidx3b.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "bmiidx3",
+                                                 "sha256":  "1064dd279071af2083af8309064801bb0e5f194728b0789344ba83b9fe5b33d0"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/bmiidx3b.png",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "bmiidx3",
+                                                 "sha256":  "40d0cc1ec5dcf7095cdfdd4f727b675f60488b81e5faef536d1b605e235c0128"
+                                             }
                                },
                   "bmiidx3a":  {
                                    "title":  "beatmania IIDX 3rd style",
-                                   "parent":  "bmiidx3"
+                                   "parent":  "bmiidx3",
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/bmiidx3a.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "bmiidx3",
+                                                     "sha256":  "0c65fc4a929818304929b4f28906af45104c1d6b158d5d1da4fcf0668bd62871"
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/bmiidx3a.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "bmiidx3",
+                                                 "sha256":  "1064dd279071af2083af8309064801bb0e5f194728b0789344ba83b9fe5b33d0"
+                                             },
+                                   "box3D":  {
+                                                 "path":  "box-3d/bmiidx3a.png",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "bmiidx3",
+                                                 "sha256":  "40d0cc1ec5dcf7095cdfdd4f727b675f60488b81e5faef536d1b605e235c0128"
+                                             }
                                },
                   "bmiidx4":  {
                                   "title":  "beatmania IIDX 4th style",
@@ -6455,7 +7446,19 @@
                                             }
                               },
                   "bmiidx5":  {
-                                  "title":  "beatmania IIDX 5th style"
+                                  "title":  "beatmania IIDX 5th style",
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/bmiidx5.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "bmiidx5",
+                                                    "sha256":  "cb257e0921a526c57203c2c36329e4c9eafb0ba6d2ea22e4ec5e4e4a58431b76"
+                                                },
+                                  "box3D":  {
+                                                "path":  "box-3d/bmiidx5.png",
+                                                "match":  "exact",
+                                                "sourceSetId":  "bmiidx5",
+                                                "sha256":  "fc0db0f6ddded81a49255138eb8e9f5584de3d805812502c07c0bced17a5e6c6"
+                                            }
                               },
                   "bmiidx6":  {
                                   "title":  "beatmania IIDX 6th style",
@@ -6470,6 +7473,12 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "bmiidx6",
                                                 "sha256":  "e5789a155106f26a591d77ca651727c82179267ed11e1e6bb9ad910c54627fa6"
+                                            },
+                                  "box2D":  {
+                                                "path":  "box-2d/bmiidx6.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "bmiidx6",
+                                                "sha256":  "a17626a2291bc9cd72dc89b65ac3944c02915177f55fb9ff628d35819c0c8a53"
                                             }
                               },
                   "bmiidx6a":  {
@@ -6486,6 +7495,12 @@
                                                  "match":  "parent",
                                                  "sourceSetId":  "bmiidx6",
                                                  "sha256":  "e5789a155106f26a591d77ca651727c82179267ed11e1e6bb9ad910c54627fa6"
+                                             },
+                                   "box2D":  {
+                                                 "path":  "box-2d/bmiidx6a.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "bmiidx6",
+                                                 "sha256":  "a17626a2291bc9cd72dc89b65ac3944c02915177f55fb9ff628d35819c0c8a53"
                                              }
                                },
                   "bmiidx7":  {
@@ -6495,6 +7510,18 @@
                                                 "match":  "exact",
                                                 "sourceSetId":  "bmiidx7",
                                                 "sha256":  "e78ef0e80c14e7b7e407096e495b9e6eb6344e19ffcc75b113903c701bf0b201"
+                                            },
+                                  "clearLogo":  {
+                                                    "path":  "clear-logo/bmiidx7.png",
+                                                    "match":  "exact",
+                                                    "sourceSetId":  "bmiidx7",
+                                                    "sha256":  "0be5caae80fecc4671b674df727b7a84964af08e352b20f7bb0b3359860f3661"
+                                                },
+                                  "box2D":  {
+                                                "path":  "box-2d/bmiidx7.jpg",
+                                                "match":  "exact",
+                                                "sourceSetId":  "bmiidx7",
+                                                "sha256":  "c8b51bc187e10d49f70ed555129df3259fb6fbf956d0964dbc55e76438e1d2d7"
                                             }
                               },
                   "bmiidx7a":  {
@@ -6505,6 +7532,18 @@
                                                  "match":  "exact",
                                                  "sourceSetId":  "bmiidx7a",
                                                  "sha256":  "5d7a9c0d4e7b993c32e93ffbc04c2c714134af5e1e67160186ee2b7cf9bf79ba"
+                                             },
+                                   "clearLogo":  {
+                                                     "path":  "clear-logo/bmiidx7a.png",
+                                                     "match":  "parent",
+                                                     "sourceSetId":  "bmiidx7",
+                                                     "sha256":  "0be5caae80fecc4671b674df727b7a84964af08e352b20f7bb0b3359860f3661"
+                                                 },
+                                   "box2D":  {
+                                                 "path":  "box-2d/bmiidx7a.jpg",
+                                                 "match":  "parent",
+                                                 "sourceSetId":  "bmiidx7",
+                                                 "sha256":  "c8b51bc187e10d49f70ed555129df3259fb6fbf956d0964dbc55e76438e1d2d7"
                                              }
                                },
                   "bmiidx8":  {

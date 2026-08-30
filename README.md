@@ -33,3 +33,9 @@ The initial curated artwork set is sourced from EmuMovies MAME artwork collectio
 manifest.json records whether each game uses exact artwork or a parent-inherited alias and retains the original source set ID and SHA-256.
 
 This repository does not assign a new copyright license to third-party artwork. Artwork rights remain with their respective owners/contributors.
+
+
+## Supplemental source
+
+Additional missing artwork was supplemented from the LaunchBox Games Database.
+The repository layout, canonical set-ID filenames, clone alias policy, and runtime lookup behavior remain unchanged.
