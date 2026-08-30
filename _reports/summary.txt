@@ -1,0 +1,26 @@
+﻿ArcadeDuck Artwork distribution summary
+Generated: 2026-08-30 01:07:26 -04:00
+
+Games represented in manifest: 434
+
+Clear Logo:
+  distributed game-ID paths: 292
+  exact artwork: 137
+  parent-inherited aliases: 155
+  missing: 142
+  unique upstream source images: 137
+
+2D Box:
+  distributed game-ID paths: 242
+  exact artwork: 102
+  parent-inherited aliases: 140
+  missing: 192
+  unique upstream source images: 102
+
+3D Box:
+  distributed game-ID paths: 294
+  exact artwork: 158
+  parent-inherited aliases: 136
+  missing: 140
+  unique upstream source images: 158
+
