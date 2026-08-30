@@ -7,8 +7,8 @@ Artwork is keyed by ArcadeDuck's canonical arcade set ID, matching the identifie
 ## Artwork types
 
 - clear-logo/<set-id>.png
-- ox-2d/<set-id>.jpg
-- ox-3d/<set-id>.png
+- box-2d/<set-id>.jpg
+- box-3d/<set-id>.png
 
 Where a clone or regional variant does not have dedicated artwork, the repository materializes the selected parent artwork under the clone's own set ID. This keeps ArcadeDuck's runtime lookup intentionally simple: one direct URL per game ID, with no fuzzy title matching required.
 
